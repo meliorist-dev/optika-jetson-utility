@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 11
+names: ['BAD_BILLBOARD', 'BAD_STREETLIGHT', 'BROKEN_SIGNAGE', 'CLUTTER_SIDEWALK', 'CONSTRUCTION_ROAD', 'FADED_SIGNAGE', 'GARBAGE', 'GRAFFITI', 'POTHOLES', 'SAND_ON_ROAD', 'UNKEPT_FACADE']
+
+roboflow:
+  workspace: abinash-senapati-ia2oj
+  project: smartathon-wos99
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/abinash-senapati-ia2oj/smartathon-wos99/dataset/1
